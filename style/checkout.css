@@ -1,0 +1,80 @@
+.container-Checkout{
+    width: 100%;
+    min-width: 50vh;
+    max-width: 50vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    padding: 15px;
+    background-color: #2b2a2ad6;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.container-formapagamento{
+    width: 100%;
+    background-color: #262525d6;
+    border-radius: 25px;
+    padding: 0px 15px 15px 15px;
+}
+
+.form-text{
+    display: block;
+    font-size: 35px;
+    color: azure;
+    line-height: 1.2;
+    text-align: center;
+    margin: 5px;
+}
+
+.input-formapagamento{
+    font-size: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.text-formapagamento{
+    font-size: 17px;
+}
+
+.select-formapagamento{
+    font-size: 17px;
+    margin: 5px;
+}
+
+.container-confir-pagamento{
+    width: 100%;
+    border-radius: 25px;
+    padding: 15px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.text-confir-formapagamento{
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.text-confir-formapagamento-numero{
+    margin-left: 15px;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.msg-error{
+    background-color: #ff0000;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    opacity: 0.7;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
