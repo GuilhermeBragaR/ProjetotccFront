@@ -45,6 +45,7 @@ body, html {
   color: azure;
   line-height: 1.2;
   text-align: center;
+  padding: 10px;
 }
 
 .wrap-input {
